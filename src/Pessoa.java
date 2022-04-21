@@ -3,7 +3,6 @@ public class Pessoa {
 	private String ultimoNome;
 	private String nomeDoMeio;
 	private String apelido;
-	private String nomeDoPai;
 
 	private Pessoa(String nome, String ultimoNome, String nomeDoMeio, String apelido) {
 		this.nome = nome;
@@ -83,10 +82,6 @@ public class Pessoa {
 
 	public void setApelido(String apelido) {
 		this.apelido = apelido;
-	}
-
-	public String getNomeDoPai() {
-		return nomeDoPai;
 	}
 
 }
